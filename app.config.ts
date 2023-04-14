@@ -14,6 +14,12 @@ export default defineAppConfig({
     header: {
       title: "JTU DOCS"
     },
+    github: {
+      owner: "FlyingThaCat",
+      repo: "jtudocs",
+      branch: "master",
+      root: "content"
+    },
     footer: {
       iconLinks: [
         {
