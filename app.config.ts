@@ -1,4 +1,5 @@
 export default defineAppConfig({
+  plugins: ['~/plugins/medium-zoom'],
   docus: {
     title: 'JTUDOCS',
     description: 'All About My Understanding In My School.',
