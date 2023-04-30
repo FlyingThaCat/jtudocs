@@ -8,5 +8,5 @@ export default defineNuxtConfig(() => ({
       },
     ],
   },
-  extend: '@nuxt-themes/docus'
+  extends: '@nuxt-themes/docus'
 }))
