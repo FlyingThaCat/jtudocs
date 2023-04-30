@@ -1,4 +1,8 @@
-export default defineNuxtConfig(() => ({
+export default defineNuxtConfig({
+  extends: '@nuxt-themes/docus'
+})
+
+export default {
   head: {
     script: [
       {
@@ -8,5 +12,4 @@ export default defineNuxtConfig(() => ({
       },
     ],
   },
-  extends: '@nuxt-themes/docus'
-}))
+}
