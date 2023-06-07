@@ -1,23 +1,22 @@
 export default defineAppConfig({
   plugins: ['~/plugins/medium-zoom'],
   docus: {
-    title: 'JTUDOCS',
-    description: 'All About My Understanding In My School.',
+    title: 'TKJ1DOCS',
+    description: 'Docs That Written By Some Of Student From TKJ1',
     image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
     socials: {
-      github: 'FlyingThaCat',
-      instagram: 'XI_TKJ_1_JOHN'
+      github: 'FlyingThaCat'
     },
     aside: {
       level: 0,
       exclude: []
     },
     header: {
-      title: "JTU DOCS"
+      title: "TKJ1 DOCS"
     },
     github: {
       owner: "FlyingThaCat",
-      repo: "jtudocs",
+      repo: "tkj1docs",
       branch: "master",
       root: "content"
     },
