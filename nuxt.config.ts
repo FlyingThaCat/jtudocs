@@ -8,5 +8,10 @@ export default defineNuxtConfig({
       }],
     },
   },
+  nitro: {
+    prerender: {
+      failOnError: false,
+    }
+  },
   extends: '@nuxt-themes/docus'
 })
